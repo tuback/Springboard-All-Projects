@@ -1,0 +1,78 @@
+﻿Model Metrics 
+
+
+Final Model: Support Vector Machine (SVM)
+
+
+Parameters:
+- C: 0.1
+- Kernel: Linear
+
+
+Random State: 42
+
+
+Hyperparameters:
+- C: [0.1, 1, 10]
+- Kernel: ['linear', 'rbf']
+
+
+Performance Metrics:
+- Accuracy: 0.899
+- Precision: 0.689
+- Recall: 0.417
+- F1 Score: 0.519
+- ROC AUC: 0.694
+
+
+Features:
+- Age
+- BusinessTravel
+- DailyRate
+- Department
+- DistanceFromHome
+- Education
+- EducationField
+- EmployeeCount
+- EmployeeNumber
+- EnvironmentSatisfaction
+- Gender
+- HourlyRate
+- JobInvolvement
+- JobLevel
+- JobRole
+- JobSatisfaction
+- MaritalStatus
+- MonthlyIncome
+- MonthlyRate
+- NumCompaniesWorked
+- Over18
+- OverTime
+- PercentSalaryHike
+- PerformanceRating
+- RelationshipSatisfaction
+- StandardHours
+- StockOptionLevel
+- TotalWorkingYears
+- TrainingTimesLastYear
+- WorkLifeBalance
+- YearsAtCompany
+- YearsInCurrentRole
+- YearsSinceLastPromotion
+- YearsWithCurrManager
+
+
+Top 5 Most Important Features (Based on SVM Coefficients):
+- NumCompaniesWorked: 0.927
+- YearsSinceLastPromotion: 0.812
+- OverTime_Yes: 0.654
+- JobRole_Sales Executive: 0.521
+- JobRole_Research Scientist: 0.489
+
+
+Bottom 5 Least Important Features (Based on SVM Coefficients):
+- TotalWorkingYears: -0.932
+- YearsInCurrentRole: -0.821
+- OverTime_No: -0.654
+- JobSatisfaction: -0.598
+- EnvironmentSatisfaction: -0.572
